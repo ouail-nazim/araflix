@@ -203,6 +203,7 @@ nav .cancel-icon{
 /* header section */
 
 header{
+    width: 100%;
     height: 100%; 
     position: relative; 
        
@@ -224,11 +225,11 @@ header .banner{
     margin-left: 3%;
     padding: 1%;
     
+    
 }
 header .banner h1{
     font-size: 50px;
     line-height: 117px;
-    letter-spacing: 0.5em;
     color: #DADADA;
 }
 header .banner .rated{
@@ -285,9 +286,11 @@ header .banner .buttons a:hover{
     }
 }
 /* main section */
+
 main .box{
     margin-top: 30px;
     height: auto;
+    
 }
 main .box header{
     display: flex;
@@ -302,6 +305,7 @@ main .box header h3{
 main .box header a{
     color: #E7511A;   
     text-decoration: none;
+    
 }
 main .box .content{
     height: 200px;
@@ -309,13 +313,13 @@ main .box .content{
     display: grid;
     align-items: center;
     grid-template-columns: 20% 20% 20% 20% ;
-    grid-gap: 1px 3%;
+    grid-gap: 1px 5%;
     
 }
 main .box .content div{
     width: 250px;
     height: 150px;
-    margin: 0 30px;
+    margin: 0 20px 0 30px;
     position: relative;
     
 }
@@ -360,8 +364,6 @@ main .box .content div .hide p span{
     padding: 1.5%;
     margin-right: 10px;
 }
-
-
 @media(max-width:1245px){
     main .box .content{
         grid-template-columns: 20% 20% 20% 20% ;
@@ -417,3 +419,46 @@ main .box .content div .hide p span{
     }
 }
 
+/* footer section */
+footer{
+    margin-top: 20px;
+    width: 100%;
+}
+footer .links{
+    background-color: #3F3F3F;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-row-gap: 1px;
+    grid-column-gap: 5%;
+    justify-content: space-between;
+    align-content: center;
+}
+footer .links ul li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+footer .links ul li a{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+footer .links div p{
+    color: #E7511A;
+    font-size: 2em;
+}
+footer .links div p span{
+    font-size: .5em;
+}
+footer .Rights{
+    background: rgba(109, 109, 109, 0.363);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #C4C4C4;
+}
+footer .Rights p a{
+    color: #E7511A;
+    text-decoration: none;
+}

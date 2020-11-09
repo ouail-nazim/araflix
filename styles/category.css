@@ -1,0 +1,27 @@
+main .box .content{
+    height: auto;
+    grid-row-gap: 15px;
+    grid-column-gap: 5%;
+    
+}
+main .box ul.pagination{
+   
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   margin:10px ;
+}
+main .box ul.pagination li , main .box ul.pagination li a{
+    margin: 0% 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+   
+}
+main .box ul.pagination li a:hover{
+    color: #E7511A;
+}
+
+
+

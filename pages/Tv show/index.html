@@ -1,0 +1,351 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Araflix</title>
+    <!-- font style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- style -->
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/movies.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav>
+        <div class="menu-icon"><span class="fa fa-bars"></span></div>
+        <div class="logo">Araflix </div>
+        <div class="nav-items">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="/pages/movies/index.html">Movies</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Anime</a></li>
+        </div>
+        <div class="search-icon"><span class="fa fa-search"></span></div>
+        <div class="cancel-icon"><span class="fa fa-times"></span></div>
+        <form action="#" method="">
+            <input type="search" class="search-data" required placeholder="search ....">
+            <button class="fa fa-search"></button>
+        </form>
+    </nav>
+    <!-- header -->
+    <header>
+        <!-- <img src="1.jpg" alt=""> -->
+        <div class="banner">
+            <h1>Tv Shows</h1>
+            <ul>
+                <li class="dropdown-btn" onclick="showlist(this)" >
+                    Category &nbsp; <i class="fa fa-chevron-down"></i>
+                    <ul class="dropdown-box hide">
+                        <a href="#A">all</a>
+                        <a href="#R">romence</a>
+                        <a href="#C">comidey</a>
+                        <a href="../movies/categorys.html">action</a>
+                        <a href="#">homelande</a>
+                        <a href="#">just one</a>
+                        
+                    </ul>
+                </li>  
+            </ul>
+            <ul>
+                <li class="dropdown-btn" onclick="showlist(this)" >
+                    Rating &nbsp; <i class="fa fa-chevron-down"></i>
+                    <ul class="dropdown-box hide">
+                        <a href="#A">+18</a>
+                        <a href="#R">+16</a>
+                        <a href="#C">+14</a>
+                    </ul>
+                </li>  
+            </ul>
+           
+            
+        </div>
+    </header>
+    <!-- main content -->
+    <main>
+        <!-- trending -->
+        <div class="box">
+            <header>
+                <h3>Trending</h3>
+                <a href="#" class="more">view all ></a>
+            </header>
+            <div class="content">
+                
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+               <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Most popular movies -->
+        <div class="box">
+            <header>
+                <h3>Most popular movies</h3>
+                <a href="#" class="more">view all ></a>
+            </header>
+            <div class="content">
+                
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+               <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Most popular TV Show -->
+        <div class="box">
+            <header>
+                <h3>Most popular TV Show </h3>
+                <a href="#" class="more">view all ></a>
+            </header>
+            <div class="content">
+                
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+               <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Upcoming Movies -->
+        <div class="box">
+            <header>
+                <h3>Upcoming Movies</h3>
+                <a href="#" class="more">view all ></a>
+            </header>
+            <div class="content">
+                
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+               <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- new movies -->
+        <div class="box">
+            <header>
+                <h3>New Movies</h3>
+                <a href="#" class="more">view all ></a>
+            </header>
+            <div class="content">
+                
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+               <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <img src="../../1.jpg" alt="" class="show-cover" >
+                    <div class="hide" onmouseover="show(this)" onmouseout="hide(this)">
+                        <h1>Dark</h1>
+                        <p><span>+18</span>3 Seasons</p>
+                        <br>
+                        <br>
+                        <a href="#">Watch now &nbsp; <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="links">
+            <ul>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Tv Shows</a></li>
+                <li><a href="#">Coporate Information</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Cotact Us</a></li>
+                <li><a href="#">Legal Notice</a></li>
+            </ul>
+            <div>
+                <p>
+                    Araflix <span>.com</span>
+                </p>
+            </div>
+        </div>
+        <div class="Rights">
+            <p><a href="#">Araflix.com </a>- 2020 All Rights Reserved</p>
+        </div>
+
+    </footer>
+    
+    <script src="../../scripts/navbar.js"></script>
+    <script src="../../scripts/boxhover.js"></script>
+</body>
+</html>
